@@ -1,11 +1,12 @@
-{  
-  "type": "module",  
-  "engines": {  
-    "node": ">=22.12.0"  
-  },  
-  "devDependencies": {  
-    "@types/node": "22.x.x",  
-    "typescript": ">=5.7.2"  
+{
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.x.x",
+    "dotenv": "^16.4.7",
+    "typescript": ">=5.7.2"
   },
   "scripts": {
     "dev": "tsc && node tstest.ts"
