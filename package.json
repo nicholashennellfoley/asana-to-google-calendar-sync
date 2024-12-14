@@ -9,6 +9,9 @@
     "typescript": ">=5.7.2"
   },
   "scripts": {
-    "dev": "tsc && node tstest.ts"
+    "dev": "tsc && node test.ts"
+  },
+  "dependencies": {
+    "asana": "^3.0.12"
   }
 }
